@@ -1,3 +1,28 @@
+# FPGA Development Board Recommender
+
+The folder `project` contains a project that implements an interactive recommender system for FPGA development boards.
+
+## Contents
+
+The `project` folder includes:
+
+- `app.ipynb`: Jupyter Notebook with the application code
+- `dataset.xlsx`: Excel file containing FPGA board specifications
+- `documentation.pdf`: Detailed project documentation (in Russian)
+
+## Application Description
+
+This application helps users select the most suitable FPGA development board for their prototyping needs. It works by:
+
+1. Presenting users with a series of dropdown menus to specify desired board characteristics
+2. Analyzing user input against a database of available FPGA boards
+3. Employing a scoring algorithm to match user requirements with board specifications
+4. Recommending the best-matching FPGA board based on the user's criteria
+
+The interactive interface, built using Python and ipywidgets, allows for easy customization of preferences, making it a valuable tool for both beginners and experienced developers in choosing the right FPGA board for their projects.
+
+
+
 # DDLM: Digital Design Lab Manual
 
 ## Исходные коды к главам книги      
